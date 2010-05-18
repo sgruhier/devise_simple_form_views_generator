@@ -45,6 +45,14 @@
   color:#A11F1D;
 }
 
+.simple_form .hint {
+  float:left;
+  margin-left: 310px;
+  width: 400px;
+  font-size:12px;
+  font-style: italic;
+}
+
 .simple_form .fieldWithErrors {
   display:inline;
 }
