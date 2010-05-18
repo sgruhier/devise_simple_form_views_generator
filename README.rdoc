@@ -8,6 +8,19 @@ It's a new generator to replace the default devise_views generator.
 * Views are fully localized i18N. Two locale files are generated (English and French)
 * A small CSS file is also generated just for your eyes :)
 
+== Command
+
+This gem add only on generator, same usage as the default devise generator
+
+  Usage:
+    rails generate devise_simple_form_views [SCOPE] [options]
+
+  Options:
+    -e, [--template-engine=TEMPLATE_ENGINE]  # Template engine for the views. Available options are 'erb' and 'haml'.
+                                             # Default: erb
+  
+To generate HAML views, you need to have haml, hpricot and ruby_parser gem installed
+
 == Other Languages
 
 Feel free to fork and provides new translation.
