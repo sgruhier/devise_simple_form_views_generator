@@ -40,6 +40,7 @@ en:
       'new':
         sign_up: "Sign up"
       edit:
+        settings: "My Account"
         cancel_my_account: "Cancel my account"
         password_instruction: "leave blank if you don't want to change it"
         current_password_instruction: "we need your current password to confirm your changes"

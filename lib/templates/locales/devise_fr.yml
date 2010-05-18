@@ -40,6 +40,7 @@ fr:
       'new':
         sign_up: "S'enregister"
       edit:
+        settings: "Mon compte"
         cancel_my_account: "Annuler mon compte"
         password_instruction: "Ne pas remplir si vous ne voulez pas le changer"
         current_password_instruction: "Vous devez saisir votre mot de passe en cours pour confirmer vos modifications"
