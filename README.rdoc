@@ -1,16 +1,16 @@
 == Devise simple_form views generator
 
-This gem is an add-on to the excellent devise gem from plataformatec (http://github.com/plataformatec/devise).
+This gem is an add-on to the excellent devise gem developed by plataformatec (http://github.com/plataformatec/devise).
 
 It's a new generator to replace the default devise_views generator.
 
-* Views are generated to work with simple_form gem (also for plataformatec http://github.com/plataformatec/simple_form)
-* Views are fully localized i18N. Two locale files are generated (English and French)
+* Views are generated to work with simple_form gem (also done by plataformatec http://github.com/plataformatec/simple_form)
+* Views are fully i18N localized. Two locale files are generated (English and French)
 * A small CSS file is also generated just for your eyes :)
 
 == Command
 
-This gem add only on generator, same usage as the default devise generator
+This gem add only one generator, same usage as the default devise generator
 
   Usage:
     rails generate devise_simple_form_views [SCOPE] [options]
@@ -19,11 +19,11 @@ This gem add only on generator, same usage as the default devise generator
     -e, [--template-engine=TEMPLATE_ENGINE]  # Template engine for the views. Available options are 'erb' and 'haml'.
                                              # Default: erb
   
-To generate HAML views, you need to have haml, hpricot and ruby_parser gem installed
+To generate HAML views, you need to have haml, hpricot and ruby_parser gems installed
 
 == Other Languages
 
-Feel free to fork and provides new translation.
+Feel free to fork and provide new translations.
 
 == Maintainers
 
@@ -37,7 +37,7 @@ http://github.com/sgruhier/devise_simple_form_views_generator/issues
 
 == Thanks
 
-Thanks to plataformatec and José Valim for those gems and for all the work they do around Rails community
+Big thanks to plataformatec and José Valim for all the work they do for Rails community.
 Code of this plugins is mainly inspired by devise code!
 
 == License
