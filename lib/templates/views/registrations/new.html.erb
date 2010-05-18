@@ -1,0 +1,16 @@
+<h2><%= t(:".sign_up") %></h2>
+
+<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+  <div class="inputs">
+    <%= f.input :email %>
+    <%= f.input :password, :input_html => {:autocomplete => :off} %>
+    <%= f.input :password_confirmation, :input_html => {:autocomplete => :off} %>
+  </div>
+  <div class="actions">
+    <%= f.button :submit, t(:'.sign_up') %>
+  </div>
+<% end %>
+
+<div id="devise_shared_links">
+  <%= render :partial => "devise/shared/links" %>
+</div>

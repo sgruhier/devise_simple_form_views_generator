@@ -1,0 +1,12 @@
+<h2><%= t(:".resend_confirmation_instructions") %></h2>
+
+<%= simple_form_for(resource, :as => resource_name, :url => confirmation_path(resource_name)) do |f| %>
+  <%= f.input :email %>
+  <div class="actions">
+    <%= f.button :submit, t(:".resend_confirmation_instructions") %>
+  </div>
+<% end %>
+
+<div id="devise_shared_links">
+  <%= render :partial => "devise/shared/links" %>
+</div>

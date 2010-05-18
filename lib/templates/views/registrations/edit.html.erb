@@ -1,0 +1,18 @@
+<h2><%= t(:'header.settings') %></h2>
+
+<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
+  <div class="inputs">
+    <%= f.input :email %>
+    <%= f.input :password, :input_html => {:autocomplete => :off}, :hint => t(:'.password_instruction') %>
+    <%= f.input :password_confirmation, :input_html => {:autocomplete => :off} %>
+    <%= f.input :current_password, :input_html => {:autocomplete => :off}, :hint => t(:'.current_password_instruction') %>
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
+
+<div id="devise_shared_links">
+  <%= link_to t(:'.cancel_my_account'), registration_path(resource_name), :confirm => "Are you sure?", :method => :delete %>.
+</div>

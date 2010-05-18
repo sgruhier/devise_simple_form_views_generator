@@ -1,0 +1,14 @@
+<h2><%= t(:".resend_unlock_instructions") %></h2>
+
+<%= simple_form_for(resource, :as => resource_name, :url => unlock_path(resource_name)) do |f| %>
+  <div class="inputs">
+    <%= f.input :email %>
+  </div>  
+  <div class="actions">
+    <%= f.button :submit, t(:".resend_unlock_instructions") %>
+  </div>
+<% end %>
+
+<div id="devise_shared_links">
+  <%= render :partial => "devise/shared/links" %>
+</div>

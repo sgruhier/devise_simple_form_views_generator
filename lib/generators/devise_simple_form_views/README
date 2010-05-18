@@ -1,0 +1,13 @@
+
+===============================================================================
+
+- All devise simple_form views have been copied in your app/views/devise 
+  directory.
+
+- Two locale files (devise_en.yml, devise_fr.yml) have been copied in 
+  your config/locales directory.
+  
+- A default CSS file (devise_simple_form.css) has been copied in your
+  public/stylesheets directory.
+  
+===============================================================================

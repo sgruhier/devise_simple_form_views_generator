@@ -1,0 +1,73 @@
+en:
+  errors:
+    messages:
+      not_found: "not found"
+      already_confirmed: "was already confirmed"
+      not_locked: "was not locked"
+
+  devise:
+    failure:
+      unauthenticated: 'You need to sign in or sign up before continuing.'
+      unconfirmed: 'You have to confirm your account before continuing.'
+      locked: 'Your account is locked.'
+      invalid: 'Invalid email or password.'
+      invalid_token: 'Invalid authentication token.'
+      timeout: 'Your session expired, please sign in again to continue.'
+      inactive: 'Your account was not activated yet.'
+    sessions:
+      signed_in: 'Signed in successfully.'
+      signed_out: 'Signed out successfully.'
+      'new':
+        sign_in: "Sign In"
+    passwords:
+      send_instructions: 'You will receive an email with instructions about how to reset your password in a few minutes.'
+      updated: 'Your password was changed successfully. You are now signed in.'
+      edit: 
+        change_your_password: "Change your password"
+        change_my_password: "Change my password"
+      'new':
+        send_me_reset_password_instructions: "Send me reset password instructions"
+        forgot_your_password?: "Forgot your password?"
+    confirmations:
+      send_instructions: 'You will receive an email with instructions about how to confirm your account in a few minutes.'
+      confirmed: 'Your account was successfully confirmed. You are now signed in.'
+      'new':
+        resend_confirmation_instructions: "Resend confirmation instructions"
+    registrations:
+      signed_up: 'You have signed up successfully. If enabled, a confirmation was sent your e-mail.'
+      updated: 'You updated your account successfully.'
+      destroyed: 'Bye! Your account was successfully cancelled. We hope to see you again soon.'
+      'new':
+        sign_up: "Sign up"
+      edit:
+        cancel_my_account: "Cancel my account"
+        password_instruction: "leave blank if you don't want to change it"
+        current_password_instruction: "we need your current password to confirm your changes"
+    unlocks:
+      send_instructions: 'You will receive an email with instructions about how to unlock your account in a few minutes.'
+      unlocked: 'Your account was successfully unlocked. You are now signed in.'
+      'new':
+        resend_unlock_instructions: "Resend unlock instructions"
+    mailer:
+      confirmation_instructions: 'Confirmation instructions'
+      reset_password_instructions: 'Reset password instructions'
+      unlock_instructions: 'Unlock Instructions'
+      reset_password:
+        title: "Hello {{email}}!"
+        description: "Someone has requested a link to change your password, and you can do this through the link below:"
+        link: "Change my password"
+        advice: "If you didn't request this, please ignore this email.<br/>
+                 Your password won't change until you access the link above and create a new one"
+      unlock:
+        title: "Hello {{email}}!"
+        description: "Your account has been locked due to an excessive amount of unsuccessful sign in attempts.<br/>
+                      Click the link below to unlock your account:"
+        link: "Unlock my account"
+      confirmations:
+        title: "Welcome {{email}}!"
+        description: "You can confirm your account through the link below:"
+        link: "Confirm account"
+    shared:
+      links:    
+        didnt_receive_confirmation_instructions?: "Didn't receive confirmation instructions?"
+        didnt_receive_unlock_instructions?: "Didn't receive unlock instructions?"

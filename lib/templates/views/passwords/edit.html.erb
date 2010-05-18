@@ -1,0 +1,17 @@
+<h2><%= t(:'.change_my_password') %></h2>
+
+<%= simple_form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :put }) do |f| %>
+
+  <div class="inputs">
+    <%= f.input :reset_password_token, :as => :hidden %>
+    <%= f.input :password %>
+    <%= f.input :password_confirmation %>
+  </div>
+  <div class="actions">
+    <%= f.button :submit, t(:'.change_my_password') %>
+  </div>
+<% end %>
+
+<div id="devise_shared_links">
+  <%= render :partial => "devise/shared/links" %>
+</div>

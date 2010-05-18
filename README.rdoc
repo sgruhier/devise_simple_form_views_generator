@@ -1,0 +1,32 @@
+== Devise simple_form views generator
+
+This gem is an add-on to the excellent devise gem from plataformatec (http://github.com/plataformatec/devise).
+
+It's a new generator to replace the default devise_views generator.
+
+* Views are generated to work with simple_form gem (also for plataformatec http://github.com/plataformatec/simple_form)
+* Views are fully localized i18N. Two locale files are generated (English and French)
+* A small CSS file is also generated just for your eyes :)
+
+== Other Languages
+
+Feel free to fork and provides new translation.
+
+== Maintainers
+
+* Sébastien Gruhier (http://github.com/sgruhier)
+
+== Bugs and Feedback
+
+If you discover any bugs, please create an issue on GitHub.
+
+http://github.com/sgruhier/devise_simple_form_views_generator/issues
+
+== Thanks
+
+Thanks to plataformatec and José Valim for those gems and for all the work they do around Rails community
+Code of this plugins is mainly inspired by devise code!
+
+== License
+
+MIT License. Copyright 2010 Xilinus. http://xilinus.com

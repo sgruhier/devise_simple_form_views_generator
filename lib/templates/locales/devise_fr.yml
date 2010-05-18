@@ -1,0 +1,104 @@
+fr:
+  errors:
+    messages:
+      not_found: "n'a pas été trouvé(e)"
+      already_confirmed: "a déjà été confirmé(e)"
+      not_locked: "n'était pas verrouillé(e)"
+
+  devise:
+    failure:
+      unauthenticated: "Vous devez vous connecter ou vous inscrire pour continuer."
+      unconfirmed: "Vous devez confirmer votre compte pour continuer."
+      locked: "Votre compte est verrouillé."
+      invalid: "Email ou mot de passe incorrect."
+      invalid_token: "Jeton d'authentification incorrect."
+      timeout: "Votre session est expirée, Veuillez vous reconnecter pour continuer."
+      inactive: "Votre compte n'est pas encore activé."
+    sessions:
+      signed_in: "Réussite de la connexion."
+      signed_out: "Réussite de la deconnexion."
+      'new':
+        sign_in: "Se connecter"
+    passwords:
+      send_instructions: "Vous allez recevoir un courriel avec des instructions pour changer votre mot de passe."
+      updated: "Votre mot de passe a été changé. Vous êtes maintenant connecté."
+      edit: 
+        change_your_password: "Changez votre mot de passe"
+        change_my_password: "Changer mon mot de passe"
+      'new':
+        send_me_reset_password_instructions: "Envoyez-moi un mail pour changer mon mot de passe"
+        forgot_your_password?: "Mot de passe oublié?"
+    confirmations:
+      send_instructions: "Vous allez recevoir un email avec des instructions pour confimer votre compte."
+      confirmed: "Votre compte a été confirmé. Vous êtes maintenant connecté."
+      'new':
+        resend_confirmation_instructions: "Renvoyer les instructions de confirmations"
+    registrations:
+      signed_up: "Votre inscription est enregistrée. Un email de confirmation vient de vous être envoyé."
+      updated: "Votre mise à jour est prise en compte."
+      destroyed: "Bye! Votre compte est annulé. Nous souhaitons vous revoir bientôt."
+      'new':
+        sign_up: "S'enregister"
+      edit:
+        cancel_my_account: "Annuler mon compte"
+        password_instruction: "Ne pas remplir si vous ne voulez pas le changer"
+        current_password_instruction: "Vous devez saisir votre mot de passe en cours pour confirmer vos modifications"
+    unlocks:
+      send_instructions: "Vous allez recevoir un courriel avec des instructions pour déverrouiller votre compte."
+      unlocked: "Votre compte est déverrouillé. Vous êtes maintenant connecté."
+      'new':
+        resend_unlock_instructions: "Recevoir les instructions de débloquage"
+    mailer:
+      confirmation_instructions: "Instructions de confirmation"
+      reset_password_instructions: "Instructions pour changer le mot de passe"
+      unlock_instructions: "Instructions pour déverrouiller le compte"
+      reset_password:
+        title: "Bonjour {{email}}!"
+        description: "Quelqu'un a demander un lien pour changer votre mot de passe, vous pouvez procéder au changement en clickant sur le lien suivant:"
+        link: "Changer mon mot de passe"
+        advice: "Si vous n'avez pas fait cette demande, ignorez cet email.<br/>
+                 Votre mot de passe ne sera pas modifié tant que vous ne clickez pas sur ce lien et que vous en saisissiez un nouveau"
+      unlock:
+        title: "Bonjour {{email}}!"
+        description: "Votre compte a été bloqué due à un grand nombre de tentative de connexion qui ont échouées.<br/>
+                      Clicker sur le lien suivant pour débloquer votre compte:"
+        link: "Débloquer mon compte"
+      confirmations:
+        title: "Bienvenu {{email}}!"
+        description: "Clicker sur le lien suivant pour activer votre compte:"
+        link: "Confirmer mon compte"
+    shared:
+      links:    
+        didnt_receive_confirmation_instructions?: "Vous n'avez pas reçu de mail de confirmation?"
+        didnt_receive_unlock_instructions?: "Vous n'avez pas reçu de mail de déverrouillage de votre compte?"
+    
+  simple_form:
+    labels:
+      email: 'Email'
+      password: 'Mot de passe'
+      current_password: 'Mot de passe actuel'
+      password_confirmation: 'Confirmation du mot de passe'
+
+  errors:
+    messages:
+      inclusion: "n'est pas inclus(e) dans la liste"
+      exclusion: "n'est pas disponible"
+      invalid: "n'est pas valide"
+      confirmation: "ne concorde pas avec la confirmation"
+      accepted: "doit être accepté(e)"
+      empty: "doit être rempli(e)"
+      blank: "doit être rempli(e)"
+      too_long: "est trop long (pas plus de {{count}} caractères)"
+      too_short: "est trop court (au moins {{count}} caractères)"
+      wrong_length: "ne fait pas la bonne longueur (doit comporter {{count}} caractères)"
+      taken: "n'est pas disponible"
+      not_a_number: "n'est pas un nombre"
+      greater_than: "doit être supérieur à {{count}}"
+      greater_than_or_equal_to: "doit être supérieur ou égal à {{count}}"
+      equal_to: "doit être égal à {{count}}"
+      less_than: "doit être inférieur à {{count}}"
+      less_than_or_equal_to: "doit être inférieur ou égal à {{count}}"
+      odd: "doit être impair"
+      even: "doit être pair"
+      record_invalid: "La validation a échoué : {{errors}}"
+

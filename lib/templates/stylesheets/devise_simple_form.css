@@ -1,0 +1,55 @@
+.simple_form label {
+  float:left;
+  width: 300px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  margin: 2px 10px 0 0;
+}
+
+.simple_form input[type='text'], .simple_form input[type='email'], .simple_form input[type='password']  {
+  float:left;
+  width: 400px;
+  border: 1px solid #DDD;
+  font-size: 20px;
+}
+
+.simple_form div.email, .simple_form div.password, .simple_form div.boolean {
+  float:left;
+  clear:left;
+  margin-bottom: 20px;
+}
+
+.simple_form div.boolean {
+  padding-left: 300px;
+}
+
+.simple_form div.boolean label {
+  float:none;
+}
+
+.simple_form div.boolean input {
+  float:left;
+}
+
+.simple_form .actions {
+  clear:left;
+  float:left;
+  padding-left: 310px;  
+}
+
+.simple_form .error {
+  clear:left;
+  float:left;
+  margin-left: 310px;
+  color:#A11F1D;
+}
+
+.simple_form .fieldWithErrors {
+  display:inline;
+}
+
+#devise_shared_links {
+  clear:left;
+  float:left;
+}
